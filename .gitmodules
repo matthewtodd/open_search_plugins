@@ -1,0 +1,3 @@
+[submodule "website"]
+	path = website
+	url = git@github.com:matthewtodd/open_search_plugins.git
