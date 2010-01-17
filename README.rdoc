@@ -1,0 +1,4 @@
+= OpenSearch Plugins
+
+I'm starting to play around with some [OpenSearch](http://en.wikipedia.org/wiki/OpenSearch) plugins to help Valerie look up movie reviews.
+
