@@ -1,12 +1,8 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Roger Ebert</ShortName>
-<Url type="text/html" method="post" template="http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search3">
-  <Param name="FromDate" value="19150101"/>
-  <Param name="Start" value="1"/>
-  <Param name="q" value="{searchTerms}"/>
-</Url>
-<Url type="application/opensearchdescription+xml" rel="self" template="http://matthewtodd.github.com/open_search_plugins/roger_ebert.xml"/>
-<moz:SearchForm>http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search</moz:SearchForm>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Roger Ebert</ShortName>
+  <Description>Search through Roger Ebert's movie reviews.</Description>
+  <Url type="text/html" template="http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search3&FromDate=19150101&Start=1&q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://matthewtodd.github.com/open_search_plugins/roger_ebert.xml"/>
 </OpenSearchDescription>
 
