@@ -6,6 +6,7 @@
   <Param name="Start" value="1"/>
   <Param name="q" value="{searchTerms}"/>
 </Url>
+<Url type="application/opensearchdescription+xml" rel="self" template="http://matthewtodd.github.com/open_search_plugins/roger_ebert.xml"/>
 <moz:SearchForm>http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search</moz:SearchForm>
 </OpenSearchDescription>
 
