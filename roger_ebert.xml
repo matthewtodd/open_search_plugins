@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>Roger Ebert</ShortName>
   <Description>Search through Roger Ebert's movie reviews.</Description>
-  <Url type="text/html" template="http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search3&FromDate=19150101&Start=1&q={searchTerms}"/>
+  <Url type="text/html" template="http://rogerebert.suntimes.com/apps/pbcs.dll/classifieds?category=search3&amp;FromDate=19150101&amp;Start=1&amp;q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="http://matthewtodd.github.com/open_search_plugins/roger_ebert.xml"/>
 </OpenSearchDescription>
 
